@@ -88,7 +88,7 @@ const postForm = async () => {
     const post = await registerPost();
     // 入力内容を投稿リストに追加
     addPost(post);
-    titleElement.Value = contentElement.Value = '';
+    titleElement.value = contentElement.value = '';
   } catch (e) {
     alert(e);
   }
