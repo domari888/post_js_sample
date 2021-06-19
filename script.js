@@ -1,5 +1,5 @@
 // Rails API 側のベース URL
-const  baseURL = 'http://fierce-chamber-80052.herokuapp.com';
+const  baseURL = 'https://fierce-chamber-80052.herokuapp.com';
 // 投稿リストの DOM 要素オブジェクトを取得
 const postList = document.getElementById('post-list');
 
